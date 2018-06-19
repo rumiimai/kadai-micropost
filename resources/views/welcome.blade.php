@@ -6,7 +6,7 @@
             <aside class="col-md-4">
             </aside>
             <div class="col-xs-8">
-                @include('tasks.index', ['tasks' => $tasks])
+                @include('microposts.microposts', ['microposts' => $microposts])
             </div>
         </div>
     @else
